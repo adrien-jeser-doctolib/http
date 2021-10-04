@@ -16,6 +16,7 @@ jobs:
     - name: Checkout target repo
       uses: actions/checkout@v2
       with:
+        ref:  master
         # REQUIRED if your upstream repo is private (see wiki)
         persist-credentials: false
 
